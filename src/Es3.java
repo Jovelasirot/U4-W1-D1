@@ -1,15 +1,31 @@
+import java.util.Scanner;
+
 public class Es3 {
     public static void main (String[] args){
         System.out.println("Es3");
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the length and width of the rectangle:");
+        double length = scanner.nextDouble();
+        double width = scanner.nextDouble();
+
         System.out.println("The perimeter of the rectangle is " +
-                perimeterRectangle(10.5, 5.5));
+                perimeterRectangle(length, width));
 
+
+        System.out.println("Enter a number to check if it is even or odd:");
+        int number = scanner.nextInt();
         System.out.println("Is this number even or odd? " +
-                eveOrOdd(11));
+                eveOrOdd(number));
 
+
+        System.out.println("Enter the lengths of the triangle's sides:");
+        double sideA = scanner.nextDouble();
+        double sideB = scanner.nextDouble();
+        double sideC = scanner.nextDouble();
         System.out.println("The area of the triangle is: " +
-                areaTriangle(12.1, 9.2, 5.1));
+                areaTriangle(sideA, sideB, sideC));
     }
 
     public static double perimeterRectangle(double a, double b) {

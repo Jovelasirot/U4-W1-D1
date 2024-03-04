@@ -22,7 +22,8 @@ public class Es2 {
                 (thirdWord + " " + secondWord + " " + firstWord));
 
 
-        String concatenatedString = firstWord + " " + secondWord + " " + thirdWord;
+        String concatenatedString = firstWord + " " + secondWord + " " +
+                thirdWord;
 
         StringBuilder reversedString = new StringBuilder(concatenatedString).reverse();
 

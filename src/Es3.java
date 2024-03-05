@@ -26,6 +26,9 @@ public class Es3 {
         double sideC = scanner.nextDouble();
         System.out.println("The area of the triangle is: " +
                 areaTriangle(sideA, sideB, sideC));
+
+
+        scanner.close();
     }
 
     public static double perimeterRectangle(double a, double b) {

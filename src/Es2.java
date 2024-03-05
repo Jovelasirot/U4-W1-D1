@@ -29,6 +29,8 @@ public class Es2 {
 
         System.out.println("What you typed reversed word and order" +
                 reversedString);
+
+        scanner.close();
     }
 
 
